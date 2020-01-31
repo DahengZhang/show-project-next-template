@@ -8,7 +8,7 @@ export default (state = initialState, action) => {
         case 'CHANGE_NAME':
             return { ...state, username: action.value }
         case 'CHANGE_AGE':
-                return { ...state, userage: action.value }
+            return { ...state, userage: action.value }
         default:
             return state
     }

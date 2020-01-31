@@ -12,6 +12,7 @@ const Home = ({ username, bundleInputChange }) => {
                 <input value={username} onChange={bundleInputChange} />
                 <span className={scss.small}>span</span>
             </h1>
+            <span className={scss.small}>out span</span>
             default
             <Link href="/article?id=1">
                 <a>文章详情</a>
